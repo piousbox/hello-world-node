@@ -1,0 +1,26 @@
+{
+  "name": "hello-world-node",
+  "version": "0.0.0",
+  "description": "I need the simplest server.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piousbox/hello-world-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piousbox/hello-world-node/issues"
+  },
+  "homepage": "https://github.com/piousbox/hello-world-node#readme",
+  "devDependencies": {
+    "bcrypt": "^3.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "piousbox-render": "0.0.37"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bcrypt": "node bcrypt.js"
+  }
+}
